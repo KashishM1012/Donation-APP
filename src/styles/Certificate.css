@@ -1,0 +1,116 @@
+/* CertificatePage.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .certificate-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+    margin-bottom: 30px;
+  }
+  
+  .certificate-form label {
+    font-size: 25px;
+  }
+  
+  .certificate-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .certificate-form button {
+    padding: 10px 20px;
+    height: 50px;;
+    font-size: 16px;
+    background-color: #20b2aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 190px;
+  }
+  
+  .certificate-form button:hover {
+    background-color: #20b2aa;
+  }
+  
+  .certificate-template {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: none; /* Initially hide the certificate template */
+  }
+  
+  .certificate-template.show {
+    display: block; /* Display the certificate template when .show class is applied */
+  }
+  
+  .certificate-template h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .certificate-template h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .certificate-template p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Optional: Customize colors to match your design */
+  .container {
+    background-color: #f9f9f9;
+  }
+  
+  .certificate-template {
+    border: 2px solid #007bff;
+    background-color: #fff;
+  }
+  
+  .certificate-template h2 {
+    color: #007bff;
+  }
+  
+  .certificate-template h3 {
+    color: #007bff;
+  }
+  
+  .certificate-template p {
+    color: #444;
+  }
+  /* CertificatePage.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  
+  .download-button-container {
+    margin-top: 20px; /* Adjust the margin as needed to center the button */
+  }
+  

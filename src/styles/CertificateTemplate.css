@@ -1,0 +1,51 @@
+/* CertificateTemplate.css */
+
+.certificate {
+    border: 1px solid #ccc;
+    padding: 40px;
+    margin-top: 30px;;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 70px;
+    width: 600px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  /* Optional: Customize colors to match your design */
+  .certificate {
+    border: 2px solid #000;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    color: #000;
+  }
+  
+  h3 {
+    color: red;
+  }
+  
+  p {
+    color: #444;
+  }
+  
